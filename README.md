@@ -9,7 +9,7 @@ L'anteprima del WebBook è disponibile qui: https://filippozuccarini.github.io/v
 * requests
 * beautifulsoup
 * mkdocs
-* mkdocs-material
+* mkdocs-material  
 
 ## Processo
 
