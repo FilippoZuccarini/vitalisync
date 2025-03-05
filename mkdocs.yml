@@ -1,0 +1,47 @@
+site_name: vitalisync
+site_url: https://FilippoZuccarini.github.io/vitalisync/
+site_author: Filippo Zuccarini
+repo_name: FilippoZuccarini/vitalisync
+repo_url: https://github.com/FilippoZuccarini/vitalisync
+
+theme:
+  name: material
+  palette:
+    - scheme: custom
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - Pedometer: pedometer.md
+  - Heart Rate: heartrate.md
+  - Respiratory Rate: respiratoryrate.md
+  - Blood Pressure: bloodpressure.md
+  - Oxygen Saturation: oxygensaturation.md
+  - Sleep Quality: sleepquality.md
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js
+  - assets/js/echarts-config.js
+
+extra_css:
+  - assets/css/custom.css
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra:
+  generator: false  # Nasconde "Made with MkDocs"
+copyright: "© 2025 Vitalisync"
